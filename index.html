@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List App</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <form id="task-form">
+      <input type="text" id="task-input" placeholder="Add a new task..." required>
+      <input type="date" id="due-date" required>
+      <select id="priority">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button type="submit">Add Task</button>
+    </form>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Search tasks...">
+    </div>
+    <div class="filter-buttons">
+      <button id="filter-all" class="active">All</button>
+      <button id="filter-completed">Completed</button>
+      <button id="filter-pending">Pending</button>
+    </div>
+    <div class="task-count">
+      <span id="pending-count">0 Pending</span>
+      <span id="completed-count">0 Completed</span>
+    </div>
+    <ul id="task-list"></ul>
+    <button id="clear-all">Clear All Tasks</button>
+  </div>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

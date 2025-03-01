@@ -1,0 +1,86 @@
+/* Existing styles... */
+
+#task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#task-form input,
+#task-form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+#search-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task-count {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+#clear-all {
+  width: 100%;
+  padding: 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#clear-all:hover {
+  opacity: 0.9;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  gap: 10px;
+}
+
+li .task-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+li .task-info .due-date {
+  font-size: 12px;
+  color: #777;
+}
+
+li .task-info .priority {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+li .priority.low {
+  color: #28a745;
+}
+
+li .priority.medium {
+  color: #ffc107;
+}
+
+li .priority.high {
+  color: #dc3545;
+}
