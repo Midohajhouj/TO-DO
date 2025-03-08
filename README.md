@@ -14,18 +14,6 @@ Features
 - **Persistent Storage**: Tasks are saved to and loaded from the browser's local storage.
 - **Clear All Tasks**: Remove all tasks with a single click.
 
-## File Structure
-
-```
-.
-├── index.html          # Main HTML structure of the app
-├── assets/
-│   ├── css/
-│   │   └── styles.css  # CSS for styling the app
-│   ├── js/
-│       └── app.js      # JavaScript for functionality
-```
-
 ## How to Run
 
 1. Clone this repository or download the files.
