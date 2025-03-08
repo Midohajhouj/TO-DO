@@ -1,6 +1,4 @@
 ```bash
-vkl
-```
 
 To-Do List App
 
